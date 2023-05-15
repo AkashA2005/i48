@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mobile App Login </title>
+    <link rel="stylesheet" href="style.css">
+<style>
+.a{
+  width: 30%;
+    font-size:24px;
+  border-bottom: 1px solid black;
+   margin-left:-50px;
+}
+</style>
+</head>
+  <body>
+    <div class="mobile">
+      <div class="top"></div>
+      <div class="bottom"></div>
+      <img src="logo.png" class="png1" />
+      <h1>BANK</h1>
+      <h6>Start your mobile banking</h6>
+    </div>
+    <div class="mobile2">
+      <div class="top"></div>
+      <div class="bottom"></div>
+      <h5>< Back</h5>      
+      <h4 style='font-family:calibri'>choice of bank:</h4>
+     <br/>
+      
+      <form id = "form" action = "qr.html" method="GET">        
+<label for='bnk' style='font-family:calibri'><b>Choose a bank</b></label>
+<select name='bank' id='bnk'>
+<option value='icici'>ICICI</option>
+<option value='HDFC'>HDFC</option>
+<option value='IOB'>IOB</option>
+</select><br>
+
+        
+          <input type="submit" name="" value="Submit"  onclick='href.location="qr.html"' style='margin-top:20px'>
+        
+    </form>
+    </div>
+
+  </body>
+</html>
